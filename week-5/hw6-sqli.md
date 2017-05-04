@@ -1,24 +1,28 @@
-## SQLi HW Grading (45 points total)
+## SQLi HW Grading (50 points total)
 Homework challenges can be found at http://sqli-challenges.r7.io/
 
 To go to your individual challenges go to http://sqli-challenges.r7.io/[uw-netid]
 
 Example: My UW NetID is amckenna so I would go to: http://sqli-challenges.r7.io/amckenna/
 
-## Part 1 - Vulnerabilities (36 points)
+## Part 1 - Vulnerabilities (41 points)
 - challenges 1-14: 28 points total (2 each)
-- challenge 15: 6 points
+- challenge 15: 5 points
+- challenge 16: 6 points
 - version number: 2 points
 
 To earn full points on challenges 1-14 you must craft a payload that exfiltrates both the flag user's username and password. On several of the challenges the payload may only inconsistently exfiltrates the flag user's credentials (try hitting refresh a few times to verify). You must craft a reliable payload that exfiltrates the flag user's name and password every time. The payload should be in the form of a link that I can load to see the results. An additional two points will be awarded if you can get the database version number and submit to me the payload used, as well as the correct version number.
 
-For challenge 15 you wont be exfiltrating the flag user's credentials, you will be playing a guessing game. You must craft a payload that "wins" the guessing game every time. Hint, you can do it without knowing your number (2 points). Additionally you must also craft a payload the exfiltrates the number that you are supposed to guess (4 points).
+For challenge 15 you wont be exfiltrating the flag user's credentials, you will be playing a guessing game. You must craft a payload that "wins" the guessing game every time. Hint, you can do it without knowing your number (2 points). Additionally you must also craft a payload the exfiltrates the number that you are supposed to guess (3 points).
 
-TL;DR - 17 URLs. 
+For challenge 16 you wont be directly exfiltrating the number from the guessing game. Instead you will be figuring out the number by manipulating the game's output and searching the correct number (blind SQL). You should be able to do this in less than 10 queries.
+
+TL;DR - 18 URLs. 
 	- One each for challenges 1-14 (each producing the flag user's name and password every time)
 	- One that shows the version number of the database (you can use any vulnerable page for this)
-	- One that "wins" the guessing game (challenge 15) every time, without knowing the number
-	- One that displays the number you had to guess for the guessing game
+	- One that "wins" the guessing game (challenge 15) every time, without knowing the number (2 points)
+	- One that displays the number you had to guess for the guessing game (3 points)
+	- Several that can be used to find the number for the guessing game v2 (challenge 16) (6 points)
 
 This part must be submitted in the form of a .txt file.
 
