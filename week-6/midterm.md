@@ -15,7 +15,7 @@ Note:
 	- Each piece of functionality vulnerable to BL/Tampering is one issue
 
 ### Part 2 - The Report
-You will write **one** report for each of the following vulnerability classes:
+You will write **one** report for each of the following vulnerability classes. Each report should contain all instances of that vulnerability found in the application:
 
 - CSRF
 - XSS
@@ -26,9 +26,9 @@ Each report should be laid out in the following manner:
 
 - Introduction: A paragraph describing the type of vulnerability, what it is, and why it's bad.
 - Affected Areas: A one sentence description of where each instance of the vulnerability is located in the application. It should include a link to the vulnerable page and a brief description so someone could pinpoint the form/functionality/parameter quickly. Be descriptive but concise.
-- Test Steps: These should be detailed step by step directions so someone could reproduce and verify the vulnerability themselves. Include any tools needed, inputs that need to be sent, what the tester needs to do and in what order, and what the tester should see in the final result to know they proved the vulnerability. Screenshots are allowed, but necessary.
+- Test Steps (for each instance of the vulnerability): These should be detailed step by step directions so someone could reproduce and verify each of the vulnerabilities. Include any tools needed, inputs that need to be sent, what the tester needs to do and in what order, and what the tester should see in the final result to know they proved the vulnerability. Screenshots are allowed, but necessary.
 	- Note: proving CSRF requires creating CSRF payload pages that exploit each of the forms (one page per vulnerable form)
-- Remediation: This should be at least a paragraph covering how the dveloper can mitigate the issue. It should also include a link to an external resource where they can read more or see code examples. It is a PHP application and a SQLite database - make sure the remediation is relevant.
+- Remediation: This should be at least a paragraph covering how the developer can mitigate the issue. It should also include a link to an external resource where they can read more or see code examples. It is a PHP application and a SQLite database - make sure the remediation is relevant.
 
 .txt, .docx or .pdf format only. 12pt Calibri font with 1" margins (if using .docx or pdf).
 
