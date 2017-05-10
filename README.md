@@ -115,7 +115,7 @@ Grade breakdown:
 - Tu - Cryptography
 - La - Authentication 2.0
 - Th - OAuth 1.0 and business logic attacks
-- HW - Golden bank pentest
+- HW - Web application pentest
 - Reading
 
 ## Week 10 - Advanced Attacks
