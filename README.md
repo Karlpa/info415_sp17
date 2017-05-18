@@ -103,19 +103,19 @@ Grade breakdown:
 - Reading
 	- None
 
-## Week 8 - Crypto
+## Week 8 - Authentication
 - Tu - Canceled
-- La - TBD
-- Th - Common authentication flaws
-- HW - Brute force, user enumeration, and timing attacks
+- La - Common authentication flaws
+- Th - Authentication 2.0, OAuth 1.0, and business logic attacks
+- HW - None
 - Reading
 	- None
 
-## Week 9 - Misc. Attacks
+## Week 9 - Crypto
 - Tu - Cryptography
-- La - Authentication 2.0
-- Th - OAuth 1.0 and business logic attacks
-- HW - Web application pentest
+- La - Web application pentest
+- Th - Web application pentest
+- HW - None
 - Reading
 
 ## Week 10 - Advanced Attacks
