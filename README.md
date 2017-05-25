@@ -111,14 +111,14 @@ Grade breakdown:
 - Reading
 	- None
 
-## Week 9 - Crypto
+## Week 9 - Crypto & Pentest
 - Tu - Cryptography
 - La - Web application pentest
 - Th - Web application pentest
 - HW - None
 - Reading
 
-## Week 10 - Advanced Attacks
+## Week 10 - Review & Final
 - Tu - Review
 - La - Final
 - Th - Final
